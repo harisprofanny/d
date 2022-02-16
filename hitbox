@@ -1,6 +1,6 @@
 ---made by dtbvoid
 
-_G.HeadSize = 30
+_G.HeadSize = 10
 _G.Disabled = true
 
 game:GetService('RunService').RenderStepped:connect(function()
