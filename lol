@@ -5,3 +5,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringypVvhJBq4QNz", true))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/auto%20click"))()
