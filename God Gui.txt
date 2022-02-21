@@ -1,0 +1,112 @@
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local god = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+main.Position = UDim2.new(0.239242688, 0, 0.123595506, 0)
+main.Size = UDim2.new(0, 226, 0, 191)
+
+UICorner.Parent = main
+
+god.Name = "god"
+god.Parent = main
+god.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+god.Position = UDim2.new(0.0557400137, 0, 0.435176879, 0)
+god.Size = UDim2.new(0, 200, 0, 50)
+god.Font = Enum.Font.SourceSans
+god.Text = "God(OFF)"
+god.TextColor3 = Color3.fromRGB(255, 0, 0)
+god.TextSize = 14.000
+god.MouseButton1Down:connect(function()
+	if not _G.God then                
+		_G.God = true
+		god.Text = "God(ON)"
+		while _G.God == true do
+			game.Players.LocalPlayer.Character.Humanoid.Name = 1
+			local l = game.Players.LocalPlayer.Character["1"]:Clone()
+			l.Parent = game.Players.LocalPlayer.Character
+			l.Name = "Humanoid"
+			wait(0.5)
+			game.Players.LocalPlayer.Character["1"]:Destroy()
+			game.Workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character
+			game.Players.LocalPlayer.Character.Animate.Disabled = true
+			game.Players.LocalPlayer.Character.Animate.Disabled = true
+			game.Players.LocalPlayer.Character.Humanoid.DisplayDistanceType = "None"
+			wait(5)
+			saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+			local A_1 = "\66\114\111\121\111\117\98\97\100\100"
+			local Event = game:GetService("Workspace").Remote.loadchar
+			Event:InvokeServer(A_1)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
+		end
+	elseif _G.God then
+		_G.God = not _G.God
+		god.Text = "God(OFF)"
+	end
+end)
+UICorner_2.Parent = god
+
+Frame.Parent = main
+Frame.BackgroundColor3 = Color3.fromRGB(207, 0, 0)
+Frame.Position = UDim2.new(0, 0, 0.109947644, 0)
+Frame.Size = UDim2.new(0, 226, 0, 8)
+
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+TextLabel.BorderColor3 = Color3.fromRGB(39, 39, 39)
+TextLabel.Position = UDim2.new(0.0575221255, 0, 0.031413611, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 9)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Redtail Scripts"
+TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel.TextSize = 14.000
+
+local UserInputService = game:GetService("UserInputService")
+
+function draggable(gui)
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+
+draggable(main)
