@@ -1,0 +1,451 @@
+--Made By Qwertyuiop#5658
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local tittle = Instance.new("TextLabel")
+local close = Instance.new("TextButton")
+local page2 = Instance.new("TextButton")
+local page1 = Instance.new("TextButton")
+local framepage1 = Instance.new("Frame")
+local iy = Instance.new("TextButton")
+local dex = Instance.new("TextButton")
+local fly = Instance.new("TextButton")
+local tptool = Instance.new("TextButton")
+local speedtool = Instance.new("TextButton")
+local wallwalk = Instance.new("TextButton")
+local infjump = Instance.new("TextButton")
+local fixcam = Instance.new("TextButton")
+local framepage2 = Instance.new("Frame")
+local reach = Instance.new("TextButton")
+local keyboard = Instance.new("TextButton")
+local net = Instance.new("TextButton")
+local syntax = Instance.new("TextButton")
+local sushi = Instance.new("TextButton")
+local bang = Instance.new("TextButton")
+local vhub = Instance.new("TextButton")
+local antifling = Instance.new("TextButton")
+local re = Instance.new("TextButton")
+local openmain = Instance.new("Frame")
+local open = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+main.Position = UDim2.new(0.280602604, 0, 0.387401611, 0)
+main.Size = UDim2.new(0, 300, 0, 200)
+main.Visible = false
+main.Active = true
+
+tittle.Name = "tittle"
+tittle.Parent = main
+tittle.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
+tittle.Size = UDim2.new(0, 260, 0, 35)
+tittle.Font = Enum.Font.SourceSansBold
+tittle.Text = "Sex Hub"
+tittle.TextColor3 = Color3.fromRGB(0, 0, 0)
+tittle.TextScaled = true
+tittle.TextSize = 14.000
+tittle.TextWrapped = true
+
+close.Name = "close"
+close.Parent = main
+close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+close.Position = UDim2.new(0.866666675, 0, 0, 0)
+close.Size = UDim2.new(0, 40, 0, 35)
+close.Font = Enum.Font.SourceSansSemibold
+close.Text = "X"
+close.TextColor3 = Color3.fromRGB(0, 0, 0)
+close.TextScaled = true
+close.TextSize = 14.000
+close.TextWrapped = true
+close.MouseButton1Down:connect(function()
+	main.Visible = false
+	openmain.Visible = true
+end)
+
+page2.Name = "page2"
+page2.Parent = main
+page2.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+page2.Position = UDim2.new(0.526666701, 0, 0.850000024, 0)
+page2.Size = UDim2.new(0, 80, 0, 30)
+page2.Font = Enum.Font.GothamBold
+page2.Text = "Page2"
+page2.TextColor3 = Color3.fromRGB(0, 0, 0)
+page2.TextScaled = true
+page2.TextSize = 14.000
+page2.TextWrapped = true
+
+page1.Name = "page1"
+page1.Parent = main
+page1.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+page1.Position = UDim2.new(0.176666707, 0, 0.850000024, 0)
+page1.Size = UDim2.new(0, 80, 0, 30)
+page1.Font = Enum.Font.GothamBold
+page1.Text = "Page1"
+page1.TextColor3 = Color3.fromRGB(0, 0, 0)
+page1.TextScaled = true
+page1.TextSize = 14.000
+page1.TextWrapped = true
+
+framepage1.Name = "framepage1"
+framepage1.Parent = main
+framepage1.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+framepage1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+framepage1.Position = UDim2.new(0, 0, 0.174999997, 0)
+framepage1.Size = UDim2.new(0, 300, 0, 133)
+
+iy.Name = "iy"
+iy.Parent = framepage1
+iy.BackgroundColor3 = Color3.fromRGB(255, 85, 255)
+iy.Position = UDim2.new(0.0666666701, 0, 0.0526315756, 0)
+iy.Size = UDim2.new(0, 50, 0, 50)
+iy.Font = Enum.Font.SourceSans
+iy.Text = "iy"
+iy.TextColor3 = Color3.fromRGB(0, 0, 0)
+iy.TextScaled = true
+iy.TextSize = 14.000
+iy.TextWrapped = true
+iy.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+dex.Name = "dex"
+dex.Parent = framepage1
+dex.BackgroundColor3 = Color3.fromRGB(255, 85, 255)
+dex.Position = UDim2.new(0.313333333, 0, 0.0526315756, 0)
+dex.Size = UDim2.new(0, 50, 0, 50)
+dex.Font = Enum.Font.SourceSans
+dex.Text = "dex"
+dex.TextColor3 = Color3.fromRGB(0, 0, 0)
+dex.TextScaled = true
+dex.TextSize = 14.000
+dex.TextWrapped = true
+dex.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/DexExplorer2.0.lua.txt"))()
+end)
+
+fly.Name = "fly"
+fly.Parent = framepage1
+fly.BackgroundColor3 = Color3.fromRGB(255, 85, 255)
+fly.Position = UDim2.new(0.556666672, 0, 0.0526315756, 0)
+fly.Size = UDim2.new(0, 50, 0, 50)
+fly.Font = Enum.Font.SourceSans
+fly.Text = "fly"
+fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+fly.TextScaled = true
+fly.TextSize = 14.000
+fly.TextWrapped = true
+fly.MouseButton1Down:connect(function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+end)
+
+tptool.Name = "tptool"
+tptool.Parent = framepage1
+tptool.BackgroundColor3 = Color3.fromRGB(255, 85, 255)
+tptool.Position = UDim2.new(0.773333311, 0, 0.0526315756, 0)
+tptool.Size = UDim2.new(0, 50, 0, 50)
+tptool.Font = Enum.Font.SourceSans
+tptool.Text = "tptool"
+tptool.TextColor3 = Color3.fromRGB(0, 0, 0)
+tptool.TextScaled = true
+tptool.TextSize = 14.000
+tptool.TextWrapped = true
+tptool.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/click%20tp%20tool"))()
+end)
+
+speedtool.Name = "speedtool"
+speedtool.Parent = framepage1
+speedtool.BackgroundColor3 = Color3.fromRGB(255, 85, 255)
+speedtool.Position = UDim2.new(0.309999973, 0, 0.496240616, 0)
+speedtool.Size = UDim2.new(0, 50, 0, 50)
+speedtool.Font = Enum.Font.SourceSans
+speedtool.Text = "speedtool"
+speedtool.TextColor3 = Color3.fromRGB(0, 0, 0)
+speedtool.TextScaled = true
+speedtool.TextSize = 14.000
+speedtool.TextWrapped = true
+speedtool.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/click%20speed%20tool"))()
+end)
+
+wallwalk.Name = "wallwalk"
+wallwalk.Parent = framepage1
+wallwalk.BackgroundColor3 = Color3.fromRGB(255, 85, 255)
+wallwalk.Position = UDim2.new(0.0633333325, 0, 0.496240616, 0)
+wallwalk.Size = UDim2.new(0, 50, 0, 50)
+wallwalk.Font = Enum.Font.SourceSans
+wallwalk.Text = "wallwalk"
+wallwalk.TextColor3 = Color3.fromRGB(0, 0, 0)
+wallwalk.TextScaled = true
+wallwalk.TextSize = 14.000
+wallwalk.TextWrapped = true
+wallwalk.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
+end)
+
+infjump.Name = "infjump"
+infjump.Parent = framepage1
+infjump.BackgroundColor3 = Color3.fromRGB(255, 85, 255)
+infjump.Position = UDim2.new(0.556666672, 0, 0.496240616, 0)
+infjump.Size = UDim2.new(0, 50, 0, 50)
+infjump.Font = Enum.Font.SourceSans
+infjump.Text = "infjump"
+infjump.TextColor3 = Color3.fromRGB(0, 0, 0)
+infjump.TextScaled = true
+infjump.TextSize = 14.000
+infjump.TextWrapped = true
+infjump.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/bC97eAyR", true))()
+end)
+
+fixcam.Name = "fixcam"
+fixcam.Parent = framepage1
+fixcam.BackgroundColor3 = Color3.fromRGB(255, 85, 255)
+fixcam.Position = UDim2.new(0.773333311, 0, 0.496240616, 0)
+fixcam.Size = UDim2.new(0, 50, 0, 50)
+fixcam.Font = Enum.Font.SourceSans
+fixcam.Text = "fixcam"
+fixcam.TextColor3 = Color3.fromRGB(0, 0, 0)
+fixcam.TextScaled = true
+fixcam.TextSize = 14.000
+fixcam.TextWrapped = true
+fixcam.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/fixcam.txt"))()
+end)
+
+framepage2.Name = "framepage2"
+framepage2.Parent = main
+framepage2.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
+framepage2.Position = UDim2.new(0, 0, 0.185000002, 0)
+framepage2.Size = UDim2.new(0, 300, 0, 133)
+framepage2.Visible = false
+
+reach.Name = "reach"
+reach.Parent = framepage2
+reach.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+reach.Position = UDim2.new(0.0700000003, 0, 0.0676691756, 0)
+reach.Size = UDim2.new(0, 50, 0, 50)
+reach.Font = Enum.Font.SourceSans
+reach.Text = "reach"
+reach.TextColor3 = Color3.fromRGB(0, 0, 0)
+reach.TextScaled = true
+reach.TextSize = 14.000
+reach.TextWrapped = true
+reach.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/Kill%20reach.txt"))()
+end)
+
+keyboard.Name = "keyboard"
+keyboard.Parent = framepage2
+keyboard.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+keyboard.Position = UDim2.new(0.276666671, 0, 0.0676691756, 0)
+keyboard.Size = UDim2.new(0, 50, 0, 50)
+keyboard.Font = Enum.Font.SourceSans
+keyboard.Text = "keyboard"
+keyboard.TextColor3 = Color3.fromRGB(0, 0, 0)
+keyboard.TextScaled = true
+keyboard.TextSize = 14.000
+keyboard.TextWrapped = true
+keyboard.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/keyboard%20better%20version"))()
+end)
+
+net.Name = "net"
+net.Parent = framepage2
+net.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+net.Position = UDim2.new(0.74000001, 0, 0.511278212, 0)
+net.Size = UDim2.new(0, 50, 0, 50)
+net.Font = Enum.Font.SourceSans
+net.Text = "netless"
+net.TextColor3 = Color3.fromRGB(0, 0, 0)
+net.TextScaled = true
+net.TextSize = 14.000
+net.TextWrapped = true
+net.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/lmao"))()
+end)
+
+syntax.Name = "syntax"
+syntax.Parent = framepage2
+syntax.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+syntax.Position = UDim2.new(0.50666666, 0, 0.511278212, 0)
+syntax.Size = UDim2.new(0, 50, 0, 50)
+syntax.Font = Enum.Font.SourceSans
+syntax.Text = "syntaxv2"
+syntax.TextColor3 = Color3.fromRGB(0, 0, 0)
+syntax.TextScaled = true
+syntax.TextSize = 14.000
+syntax.TextWrapped = true
+syntax.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Memeboiyot/SyntaxRebornOfficial/main/SyntaxReborn'),true))()
+end)
+
+sushi.Name = "sushi"
+sushi.Parent = framepage2
+sushi.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+sushi.Position = UDim2.new(0.276666671, 0, 0.511278212, 0)
+sushi.Size = UDim2.new(0, 50, 0, 50)
+sushi.Font = Enum.Font.SourceSans
+sushi.Text = "sushix"
+sushi.TextColor3 = Color3.fromRGB(0, 0, 0)
+sushi.TextScaled = true
+sushi.TextSize = 14.000
+sushi.TextWrapped = true
+sushi.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/sushi%20x.txt"))()
+end)
+
+bang.Name = "bang"
+bang.Parent = framepage2
+bang.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+bang.Position = UDim2.new(0.0700000077, 0, 0.511278212, 0)
+bang.Size = UDim2.new(0, 50, 0, 50)
+bang.Font = Enum.Font.SourceSans
+bang.Text = "bang"
+bang.TextColor3 = Color3.fromRGB(0, 0, 0)
+bang.TextScaled = true
+bang.TextSize = 14.000
+bang.TextWrapped = true
+bang.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/Bang%20script.txt"))()
+end)
+
+vhub.Name = "vhub"
+vhub.Parent = framepage2
+vhub.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+vhub.Position = UDim2.new(0.74000001, 0, 0.0676691756, 0)
+vhub.Size = UDim2.new(0, 50, 0, 50)
+vhub.Font = Enum.Font.SourceSans
+vhub.Text = "vhub"
+vhub.TextColor3 = Color3.fromRGB(0, 0, 0)
+vhub.TextScaled = true
+vhub.TextSize = 14.000
+vhub.TextWrapped = true
+vhub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\52\103\102\114\72\120\52\82'),true))()
+end)
+
+antifling.Name = "antifling"
+antifling.Parent = framepage2
+antifling.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+antifling.Position = UDim2.new(0.50666666, 0, 0.0676691756, 0)
+antifling.Size = UDim2.new(0, 50, 0, 50)
+antifling.Font = Enum.Font.SourceSans
+antifling.Text = "antifling"
+antifling.TextColor3 = Color3.fromRGB(0, 0, 0)
+antifling.TextScaled = true
+antifling.TextSize = 14.000
+antifling.TextWrapped = true
+antifling.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/antifling.txt"))()
+end)
+
+re.Name = "re"
+re.Parent = main
+re.BackgroundColor3 = Color3.fromRGB(85, 255, 0)
+re.Position = UDim2.new(0.866666675, 0, 0.839999974, 0)
+re.Size = UDim2.new(0, 40, 0, 30)
+re.Font = Enum.Font.FredokaOne
+re.Text = "RE"
+re.TextColor3 = Color3.fromRGB(0, 0, 0)
+re.TextScaled = true
+re.TextSize = 14.000
+re.TextWrapped = true
+re.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/respawn"))()
+end)
+
+openmain.Name = "openmain"
+openmain.Parent = ScreenGui
+openmain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+openmain.Position = UDim2.new(0.0677966103, 0, 0.352755904, 0)
+openmain.Size = UDim2.new(0, 80, 0, 25)
+
+open.Name = "open"
+open.Parent = openmain
+open.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+open.Size = UDim2.new(0, 80, 0, 25)
+open.Font = Enum.Font.GothamBlack
+open.Text = "Open"
+open.TextColor3 = Color3.fromRGB(0, 0, 0)
+open.TextScaled = true
+open.TextSize = 14.000
+open.TextWrapped = true
+open.MouseButton1Down:connect(function()
+	openmain.Visible = false
+	main.Visible = true
+end)
+
+-- Scripts:
+
+local function DTYWL_fake_script() -- page2.LocalScript 
+	local script = Instance.new('LocalScript', page2)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.framepage1.Visible = false
+		script.Parent.Parent.framepage2.Visible = true
+	end)
+end
+coroutine.wrap(DTYWL_fake_script)()
+local function YCGVOXB_fake_script() -- page1.LocalScript 
+	local script = Instance.new('LocalScript', page1)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.framepage1.Visible = true
+		script.Parent.Parent.framepage2.Visible = false
+	end)
+end
+coroutine.wrap(YCGVOXB_fake_script)()
+local function OATM_fake_script() -- main.LocalScript 
+	local script = Instance.new('LocalScript', main)
+
+	-- Draggble
+	-- Credits: Veky
+	
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = gui:TweenPosition(UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y), 'Out', 'Linear', 0, true); -- drag speed
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(OATM_fake_script)()
