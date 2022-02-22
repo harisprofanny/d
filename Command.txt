@@ -13,80 +13,80 @@ Player.Chatted:connect(function(cht)
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/DexExplorer2.0.lua.txt"))();
 	elseif cht:match(";backdoor") then
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua'),true))();
-	elseif cht:match(";antiafk") then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringypVvhJBq4QNz", true))();
-	elseif cht:match(";antifling") then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/antifling.txt"))();
+	elseif cht:match(";fixcam") then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/fixcam.txt"))();
+	elseif cht:match(";invisfling") then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/Invisible_Fling.txt"))();
 	elseif cht:match(";net") then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/lmao"))();
 	elseif cht:match(";tptool") then
 		loadstring(game:HttpGet("https://pastebin.com/raw/XFZpPHAD", true))();
 	elseif cht:match(";respawn") then
 		game:GetService("Players").LocalPlayer.Character.Humanoid.Health = 0
+	elseif cht:match(";swim") then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/Swim%20gui%20fe%20(1).txt"))();
 	elseif cht:match(";keyboard") then
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))();
-	elseif cht:match(";yeet") then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/Yeet%20Gui.txt"))();
-	elseif cht:match(";droptool") then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/Drop%20tool%20gui.txt"))();
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/KeyBoard%20WarriorRoberr%20Version.txt"))();
+	elseif cht:match(";psyhub") then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/Psy%20hub.txt"))();
 	elseif cht:match(";shiftlock") then
 		loadstring(game:HttpGet(('https://pastebin.com/raw/A5zWbHbc'),true))();
 	elseif cht:match(";fly") then
 		loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")();
 	elseif cht:match(";god") then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/God%20Gui.txt"))();
-	elseif cht:match(";syntaxv2") then
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Memeboiyot/SyntaxRebornOfficial/main/SyntaxReborn'),true))();
 	elseif cht:match(";punish") then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/Punish%20Gui%20(1).txt"))();
 	elseif cht:match(";instakill") then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/insta%20kill.txt"))();
-	elseif cht:match(";btools") then
-		loadstring(game:HttpGet("https://pastebin.com/raw/93gZJUGZ", true))();
-	elseif cht:match(";walkwall") then
-		loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))();
-	elseif cht:match(";autoclick") then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/auto%20click"))();
+	elseif cht:match(";antifling") then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/antifling.txt"))();
+	elseif cht:match(";droptool") then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/Drop%20tool%20gui.txt"))();
 	elseif cht:match(";car") then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/car.txt"))();
-	elseif cht:match(";shushix") then
-		loadstring(game:HttpGet("https://paste.ee/r/bf5oO", true))();
-	elseif cht:match(";invisfling") then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/Invisible_Fling.txt"))();
-	elseif cht:match(";serverfinder") then
-		loadstring(game:HttpGet("https://www.scriptblox.com/raw/Server-Browser_80", true))();
-	elseif cht:match(";invistool") then
-		;
-	elseif cht:match(";psyhub") then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/Psy%20hub.txt"))();
+	elseif cht:match(";autoclick") then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/auto%20click"))();
+	elseif cht:match(";antiafk") then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringypVvhJBq4QNz", true))();
+	elseif cht:match(";fullbright") then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/fullbright"))();
+	elseif cht:match(";fps") then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/fps%20boost"))();
+	elseif cht:match(";vr") then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/VRMOBILE.txt"))();
 	elseif cht:match(";killcommand") then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/kill%20command"))();
-	elseif cht:match(";swim") then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/Swim%20gui%20fe%20(1).txt"))();
-	elseif cht:match(";fixcam") then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/fixcam.txt"))();
+	elseif cht:match(";syntaxv2") then
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Memeboiyot/SyntaxRebornOfficial/main/SyntaxReborn'),true))();
+	elseif cht:match(";walkwall") then
+		loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))();
+	elseif cht:match(";invistool") then
+		loadstring(game:HttpGet("https://gist.githubusercontent.com/skid123skidlol/cd0d2dce51b3f20ad1aac941da06a1a1/raw/f58b98cce7d51e53ade94e7bb460e4f24fb7e0ff/%257BFE%257D%2520Invisible%2520Tool%2520(can%2520hold%2520tools)",true))();
+	elseif cht:match(";vhub") then
+		loadstring(game:HttpGet(('\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\52\103\102\114\72\120\52\82'),true))();
 	elseif cht:match(";inf jump") then
 		loadstring(game:HttpGet("https://pastebin.com/raw/bC97eAyR", true))();
-	elseif cht:match(";fechill") then
-		loadstring(game:HttpGetAsync("https://pastebin.com/raw/XmHFdTij"))();
+	elseif cht:match(";domain") then
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domain/main/source'),true))();
 	elseif cht:match(";cmds") then
 		game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "AdminX";
-    Text = ";iy ;shiftlock ;tptool ;dex ;net ;antiafk ;yeet ;backdoor ;antifling ;fly ;droptool ;respawn ;syntaxv2 ;instakill ;punish ;keyboard ;btools";
-    Duration = 100;
+    Text = ";iy ;shiftlock ;tptool ;dex ;net ;fixcam ;keyboard ;backdoor ;invisfling ;fly ;psyhub ;respawn ;punish ;antifling ;instakill ;swim ;droptool";
+    Duration = 50;
 })
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "AdminX2";
-    Text = ";walkwall ;autoclick ;car ;shushix ;invisfling ;serverfinder ;invistool ;god ;swim ;psyhub ;inf jump ;fechill ;killcommand ;fixcam";
-    Duration = 100;
+    Text = ";car ;autoclick ;antiafk ;fullbright ;fps ;vr ;killcommand ;god ;invistoolorvhub ;syntaxv2orwalkwall ;inf jump ;domain";
+    Duration = 50;
 })
 	end
 end)
 
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
-    Title = "AdminX Loaded";
-    Text = "Type ;cmds to see your command";
+    Title = "AdminX";
+    Text = ";Cmds For Commands";
     Duration = 10;
 })
