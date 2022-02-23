@@ -1,0 +1,652 @@
+---made by Qwertyuiop#5658
+
+local ScreenGui = Instance.new("ScreenGui")
+local openmain = Instance.new("Frame")
+local open = Instance.new("TextButton")
+local main = Instance.new("Frame")
+local tittle = Instance.new("TextLabel")
+local close = Instance.new("TextButton")
+local script = Instance.new("TextButton")
+local dahood = Instance.new("TextButton")
+local dahoodmodded = Instance.new("TextButton")
+local framescript = Instance.new("Frame")
+local fps = Instance.new("TextButton")
+local unban = Instance.new("TextButton")
+local respawn = Instance.new("TextButton")
+local swagfarm = Instance.new("TextButton")
+local antiafk = Instance.new("TextButton")
+local hospitalfarmstop = Instance.new("TextButton")
+local hospitalfarm = Instance.new("TextButton")
+local shoefarmstop = Instance.new("TextButton")
+local shoefarm = Instance.new("TextButton")
+local stopfarm = Instance.new("TextButton")
+local startfarm = Instance.new("TextButton")
+local framedahood = Instance.new("Frame")
+local swag = Instance.new("TextButton")
+local rayxpc = Instance.new("TextButton")
+local venus = Instance.new("TextButton")
+local farmpc = Instance.new("TextButton")
+local dimagx = Instance.new("TextButton")
+local raycodexpc = Instance.new("TextButton")
+local fadedpc = Instance.new("TextButton")
+local silentaim = Instance.new("TextButton")
+local kingandcarl = Instance.new("TextButton")
+local trayworld = Instance.new("TextButton")
+local encrypt32 = Instance.new("TextButton")
+local hoodshark = Instance.new("TextButton")
+local karaultra = Instance.new("TextButton")
+local razorxp = Instance.new("TextButton")
+local framemod = Instance.new("Frame")
+local chariotwarepc = Instance.new("TextButton")
+local softvortex = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+openmain.Name = "openmain"
+openmain.Parent = ScreenGui
+openmain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+openmain.Position = UDim2.new(0.0893333331, 0, 0.402535647, 0)
+openmain.Size = UDim2.new(0, 70, 0, 40)
+openmain.Active = true
+
+open.Name = "open"
+open.Parent = openmain
+open.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+open.Size = UDim2.new(0, 70, 0, 40)
+open.Font = Enum.Font.GothamBold
+open.Text = "Open"
+open.TextColor3 = Color3.fromRGB(0, 0, 0)
+open.TextScaled = true
+open.TextSize = 14.000
+open.TextWrapped = true
+open.MouseButton1Down:Connect(function()
+	openmain.Visible = false
+	main.Visible = true
+end)
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+main.Position = UDim2.new(0.274666667, 0, 0.242472276, 0)
+main.Size = UDim2.new(0, 400, 0, 400)
+main.Visible = false
+main.Active = true
+
+tittle.Name = "tittle"
+tittle.Parent = main
+tittle.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
+tittle.Size = UDim2.new(0, 360, 0, 40)
+tittle.Font = Enum.Font.GothamBold
+tittle.Text = "DaHood Hubs"
+tittle.TextColor3 = Color3.fromRGB(0, 0, 0)
+tittle.TextScaled = true
+tittle.TextSize = 14.000
+tittle.TextWrapped = true
+
+close.Name = "close"
+close.Parent = main
+close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+close.Position = UDim2.new(0.899999976, 0, 0, 0)
+close.Size = UDim2.new(0, 40, 0, 40)
+close.Font = Enum.Font.GothamBold
+close.Text = "X"
+close.TextColor3 = Color3.fromRGB(0, 0, 0)
+close.TextScaled = true
+close.TextSize = 14.000
+close.TextWrapped = true
+close.MouseButton1Down:Connect(function()
+	main.Visible = false
+	openmain.Visible = true
+end)
+
+script.Name = "script"
+script.Parent = main
+script.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
+script.Position = UDim2.new(0.0775000006, 0, 0.877499998, 0)
+script.Size = UDim2.new(0, 100, 0, 30)
+script.Font = Enum.Font.GothamBold
+script.Text = "script"
+script.TextColor3 = Color3.fromRGB(0, 0, 0)
+script.TextScaled = true
+script.TextSize = 14.000
+script.TextWrapped = true
+
+dahood.Name = "dahood"
+dahood.Parent = main
+dahood.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
+dahood.Position = UDim2.new(0.37499997, 0, 0.877499998, 0)
+dahood.Size = UDim2.new(0, 100, 0, 30)
+dahood.Font = Enum.Font.GothamBold
+dahood.Text = "Dahood"
+dahood.TextColor3 = Color3.fromRGB(0, 0, 0)
+dahood.TextScaled = true
+dahood.TextSize = 14.000
+dahood.TextWrapped = true
+
+dahoodmodded.Name = "dahoodmodded"
+dahoodmodded.Parent = main
+dahoodmodded.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
+dahoodmodded.Position = UDim2.new(0.682500005, 0, 0.877499998, 0)
+dahoodmodded.Size = UDim2.new(0, 100, 0, 30)
+dahoodmodded.Font = Enum.Font.GothamBold
+dahoodmodded.Text = "DahoodMod"
+dahoodmodded.TextColor3 = Color3.fromRGB(0, 0, 0)
+dahoodmodded.TextScaled = true
+dahoodmodded.TextSize = 14.000
+dahoodmodded.TextWrapped = true
+
+framescript.Name = "framescript"
+framescript.Parent = main
+framescript.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+framescript.Position = UDim2.new(0.0399999991, 0, 0.122500002, 0)
+framescript.Size = UDim2.new(0, 370, 0, 290)
+
+fps.Name = "fps"
+fps.Parent = framescript
+fps.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+fps.Position = UDim2.new(0.0405405387, 0, 0.0620689653, 0)
+fps.Size = UDim2.new(0, 100, 0, 50)
+fps.Font = Enum.Font.GothamBold
+fps.Text = "fps"
+fps.TextColor3 = Color3.fromRGB(0, 0, 0)
+fps.TextScaled = true
+fps.TextSize = 14.000
+fps.TextWrapped = true
+fps.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/fps%20boost"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/fps%20boost"))()
+end)
+
+unban.Name = "unban"
+unban.Parent = framescript
+unban.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+unban.Position = UDim2.new(0.364864856, 0, 0.765517235, 0)
+unban.Size = UDim2.new(0, 100, 0, 50)
+unban.Font = Enum.Font.GothamBold
+unban.Text = "Unban"
+unban.TextColor3 = Color3.fromRGB(0, 0, 0)
+unban.TextScaled = true
+unban.TextSize = 14.000
+unban.TextWrapped = true
+unban.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/tkTJZ0G5"))()
+end)
+
+respawn.Name = "respawn"
+respawn.Parent = framescript
+respawn.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+respawn.Position = UDim2.new(0.0405405387, 0, 0.765517235, 0)
+respawn.Size = UDim2.new(0, 100, 0, 50)
+respawn.Font = Enum.Font.GothamBold
+respawn.Text = "re"
+respawn.TextColor3 = Color3.fromRGB(0, 0, 0)
+respawn.TextScaled = true
+respawn.TextSize = 14.000
+respawn.TextWrapped = true
+respawn.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/respawn"))()
+end)
+
+swagfarm.Name = "swagfarm"
+swagfarm.Parent = framescript
+swagfarm.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+swagfarm.Position = UDim2.new(0.694594562, 0, 0.517241359, 0)
+swagfarm.Size = UDim2.new(0, 100, 0, 50)
+swagfarm.Font = Enum.Font.GothamBold
+swagfarm.Text = "swagfarm"
+swagfarm.TextColor3 = Color3.fromRGB(0, 0, 0)
+swagfarm.TextScaled = true
+swagfarm.TextSize = 14.000
+swagfarm.TextWrapped = true
+swagfarm.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagAutofarm"))()
+end)
+
+antiafk.Name = "antiafk"
+antiafk.Parent = framescript
+antiafk.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+antiafk.Position = UDim2.new(0.364864856, 0, 0.517241359, 0)
+antiafk.Size = UDim2.new(0, 100, 0, 50)
+antiafk.Font = Enum.Font.GothamBold
+antiafk.Text = "antiafk"
+antiafk.TextColor3 = Color3.fromRGB(0, 0, 0)
+antiafk.TextScaled = true
+antiafk.TextSize = 14.000
+antiafk.TextWrapped = true
+antiafk.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Btt5A3CC"))()
+end)
+
+hospitalfarmstop.Name = "hospitalfarmstop"
+hospitalfarmstop.Parent = framescript
+hospitalfarmstop.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+hospitalfarmstop.Position = UDim2.new(0.0405405387, 0, 0.517241359, 0)
+hospitalfarmstop.Size = UDim2.new(0, 100, 0, 50)
+hospitalfarmstop.Font = Enum.Font.GothamBold
+hospitalfarmstop.Text = "HospitalFarmstop"
+hospitalfarmstop.TextColor3 = Color3.fromRGB(0, 0, 0)
+hospitalfarmstop.TextScaled = true
+hospitalfarmstop.TextSize = 14.000
+hospitalfarmstop.TextWrapped = true
+hospitalfarmstop.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/hospital%20farm%20stop"))()
+end)
+
+hospitalfarm.Name = "hospitalfarm"
+hospitalfarm.Parent = framescript
+hospitalfarm.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+hospitalfarm.Position = UDim2.new(0.694594562, 0, 0.282758623, 0)
+hospitalfarm.Size = UDim2.new(0, 100, 0, 50)
+hospitalfarm.Font = Enum.Font.GothamBold
+hospitalfarm.Text = "HospitalFarm"
+hospitalfarm.TextColor3 = Color3.fromRGB(0, 0, 0)
+hospitalfarm.TextScaled = true
+hospitalfarm.TextSize = 14.000
+hospitalfarm.TextWrapped = true
+hospitalfarm.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/v4FXNSgF'),true))()
+end)
+
+shoefarmstop.Name = "shoefarmstop"
+shoefarmstop.Parent = framescript
+shoefarmstop.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+shoefarmstop.Position = UDim2.new(0.362162173, 0, 0.282758623, 0)
+shoefarmstop.Size = UDim2.new(0, 100, 0, 50)
+shoefarmstop.Font = Enum.Font.GothamBold
+shoefarmstop.Text = "ShoeFarmStop"
+shoefarmstop.TextColor3 = Color3.fromRGB(0, 0, 0)
+shoefarmstop.TextScaled = true
+shoefarmstop.TextSize = 14.000
+shoefarmstop.TextWrapped = true
+shoefarmstop.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/shoe%20farm%20stop"))()
+end)
+
+shoefarm.Name = "shoe farm"
+shoefarm.Parent = framescript
+shoefarm.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+shoefarm.Position = UDim2.new(0.0405405387, 0, 0.282758623, 0)
+shoefarm.Size = UDim2.new(0, 100, 0, 50)
+shoefarm.Font = Enum.Font.GothamBold
+shoefarm.Text = "ShoeFarm"
+shoefarm.TextColor3 = Color3.fromRGB(0, 0, 0)
+shoefarm.TextScaled = true
+shoefarm.TextSize = 14.000
+shoefarm.TextWrapped = true
+shoefarm.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/tBztRMkV"))()
+end)
+
+stopfarm.Name = "stopfarm"
+stopfarm.Parent = framescript
+stopfarm.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+stopfarm.Position = UDim2.new(0.694594562, 0, 0.0620689653, 0)
+stopfarm.Size = UDim2.new(0, 100, 0, 50)
+stopfarm.Font = Enum.Font.GothamBold
+stopfarm.Text = "StopBankfarm"
+stopfarm.TextColor3 = Color3.fromRGB(0, 0, 0)
+stopfarm.TextScaled = true
+stopfarm.TextSize = 14.000
+stopfarm.TextWrapped = true
+stopfarm.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/da%20hood%20stop%20farm"))()
+end)
+
+startfarm.Name = "startfarm"
+startfarm.Parent = framescript
+startfarm.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+startfarm.Position = UDim2.new(0.364864856, 0, 0.0620689653, 0)
+startfarm.Size = UDim2.new(0, 100, 0, 50)
+startfarm.Font = Enum.Font.GothamBold
+startfarm.Text = "StartBankFarm"
+startfarm.TextColor3 = Color3.fromRGB(0, 0, 0)
+startfarm.TextScaled = true
+startfarm.TextSize = 14.000
+startfarm.TextWrapped = true
+startfarm.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/da%20hood%20start%20farm"))()
+end)
+
+framedahood.Name = "framedahood"
+framedahood.Parent = main
+framedahood.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+framedahood.Position = UDim2.new(0.0399999991, 0, 0.122500002, 0)
+framedahood.Size = UDim2.new(0, 370, 0, 290)
+framedahood.Visible = false
+
+swag.Name = "swag"
+swag.Parent = framedahood
+swag.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+swag.Position = UDim2.new(0.0621621646, 0, 0.0413793102, 0)
+swag.Size = UDim2.new(0, 100, 0, 40)
+swag.Font = Enum.Font.GothamBold
+swag.Text = "swagmode"
+swag.TextColor3 = Color3.fromRGB(0, 0, 0)
+swag.TextScaled = true
+swag.TextSize = 14.000
+swag.TextWrapped = true
+swag.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/swagmode.txt"))()
+	game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Warning!!!!";
+    Text = "Use Unban!";
+    Duration = 10;
+})
+end)
+
+rayxpc.Name = "rayxpc"
+rayxpc.Parent = framedahood
+rayxpc.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+rayxpc.Position = UDim2.new(0.364864856, 0, 0.789655209, 0)
+rayxpc.Size = UDim2.new(0, 100, 0, 40)
+rayxpc.Font = Enum.Font.GothamBold
+rayxpc.Text = "rayxpc"
+rayxpc.TextColor3 = Color3.fromRGB(0, 0, 0)
+rayxpc.TextScaled = true
+rayxpc.TextSize = 14.000
+rayxpc.TextWrapped = true
+rayxpc.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+end)
+
+venus.Name = "venus"
+venus.Parent = framedahood
+venus.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+venus.Position = UDim2.new(0.0621621646, 0, 0.789655209, 0)
+venus.Size = UDim2.new(0, 100, 0, 40)
+venus.Font = Enum.Font.GothamBold
+venus.Text = "venus"
+venus.TextColor3 = Color3.fromRGB(0, 0, 0)
+venus.TextScaled = true
+venus.TextSize = 14.000
+venus.TextWrapped = true
+venus.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/VENUSTHEGUIV2/VenusMainUi/main/Supported!"))()
+end)
+
+farmpc.Name = "farmpc"
+farmpc.Parent = framedahood
+farmpc.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+farmpc.Position = UDim2.new(0.659459412, 0, 0.600000024, 0)
+farmpc.Size = UDim2.new(0, 100, 0, 40)
+farmpc.Font = Enum.Font.GothamBold
+farmpc.Text = "farmpc"
+farmpc.TextColor3 = Color3.fromRGB(0, 0, 0)
+farmpc.TextScaled = true
+farmpc.TextSize = 14.000
+farmpc.TextWrapped = true
+farmpc.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/74VJ07iY", true))()
+end)
+
+dimagx.Name = "dimagx"
+dimagx.Parent = framedahood
+dimagx.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+dimagx.Position = UDim2.new(0.362162143, 0, 0.600000024, 0)
+dimagx.Size = UDim2.new(0, 100, 0, 40)
+dimagx.Font = Enum.Font.GothamBold
+dimagx.Text = "dimagx"
+dimagx.TextColor3 = Color3.fromRGB(0, 0, 0)
+dimagx.TextScaled = true
+dimagx.TextSize = 14.000
+dimagx.TextWrapped = true
+dimagx.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Dimag16/DimagX_NEW/main/dimagx', true))()
+end)
+
+raycodexpc.Name = "raycodexpc"
+raycodexpc.Parent = framedahood
+raycodexpc.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+raycodexpc.Position = UDim2.new(0.0621621646, 0, 0.600000024, 0)
+raycodexpc.Size = UDim2.new(0, 100, 0, 40)
+raycodexpc.Font = Enum.Font.GothamBold
+raycodexpc.Text = "raycodexpc"
+raycodexpc.TextColor3 = Color3.fromRGB(0, 0, 0)
+raycodexpc.TextScaled = true
+raycodexpc.TextSize = 14.000
+raycodexpc.TextWrapped = true
+raycodexpc.MouseButton1Down:Connect(function()
+	loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+end)
+
+fadedpc.Name = "fadedpc"
+fadedpc.Parent = framedahood
+fadedpc.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+fadedpc.Position = UDim2.new(0.659459412, 0, 0.400000006, 0)
+fadedpc.Size = UDim2.new(0, 100, 0, 40)
+fadedpc.Font = Enum.Font.GothamBold
+fadedpc.Text = "fadedpc"
+fadedpc.TextColor3 = Color3.fromRGB(0, 0, 0)
+fadedpc.TextScaled = true
+fadedpc.TextSize = 14.000
+fadedpc.TextWrapped = true
+fadedpc.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)
+
+silentaim.Name = "silentaim"
+silentaim.Parent = framedahood
+silentaim.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+silentaim.Position = UDim2.new(0.364864856, 0, 0.400000006, 0)
+silentaim.Size = UDim2.new(0, 100, 0, 40)
+silentaim.Font = Enum.Font.GothamBold
+silentaim.Text = "silentaimpc"
+silentaim.TextColor3 = Color3.fromRGB(0, 0, 0)
+silentaim.TextScaled = true
+silentaim.TextSize = 14.000
+silentaim.TextWrapped = true
+silentaim.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/R4pkLE8M"))()
+end)
+
+kingandcarl.Name = "kingandcarl"
+kingandcarl.Parent = framedahood
+kingandcarl.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+kingandcarl.Position = UDim2.new(0.0621621646, 0, 0.400000006, 0)
+kingandcarl.Size = UDim2.new(0, 100, 0, 40)
+kingandcarl.Font = Enum.Font.GothamBold
+kingandcarl.Text = "kingandcarl"
+kingandcarl.TextColor3 = Color3.fromRGB(0, 0, 0)
+kingandcarl.TextScaled = true
+kingandcarl.TextSize = 14.000
+kingandcarl.TextWrapped = true
+kingandcarl.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Kingy099/Kingys-Gui/main/KingySellingGui.lua'))()
+end)
+
+trayworld.Name = "trayworld"
+trayworld.Parent = framedahood
+trayworld.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+trayworld.Position = UDim2.new(0.659459412, 0, 0.217241392, 0)
+trayworld.Size = UDim2.new(0, 100, 0, 40)
+trayworld.Font = Enum.Font.GothamBold
+trayworld.Text = "trayworld"
+trayworld.TextColor3 = Color3.fromRGB(0, 0, 0)
+trayworld.TextScaled = true
+trayworld.TextSize = 14.000
+trayworld.TextWrapped = true
+trayworld.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/fxdyhtgyhyhfgyhtgfyhyhyhd"))()
+end)
+
+encrypt32.Name = "encrypt3.2"
+encrypt32.Parent = framedahood
+encrypt32.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+encrypt32.Position = UDim2.new(0.362162173, 0, 0.217241392, 0)
+encrypt32.Size = UDim2.new(0, 100, 0, 40)
+encrypt32.Font = Enum.Font.GothamBold
+encrypt32.Text = "encrypt3.2"
+encrypt32.TextColor3 = Color3.fromRGB(0, 0, 0)
+encrypt32.TextScaled = true
+encrypt32.TextSize = 14.000
+encrypt32.TextWrapped = true
+encrypt32.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/LPrandom/lua-projects/master/1/dahoodencrypt.lua"))()
+end)
+
+hoodshark.Name = "hoodshark"
+hoodshark.Parent = framedahood
+hoodshark.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+hoodshark.Position = UDim2.new(0.0621621646, 0, 0.217241392, 0)
+hoodshark.Size = UDim2.new(0, 100, 0, 40)
+hoodshark.Font = Enum.Font.GothamBold
+hoodshark.Text = "hoodshark"
+hoodshark.TextColor3 = Color3.fromRGB(0, 0, 0)
+hoodshark.TextScaled = true
+hoodshark.TextSize = 14.000
+hoodshark.TextWrapped = true
+hoodshark.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/sadsfsdsrf"))()
+end)
+
+karaultra.Name = "karaultra"
+karaultra.Parent = framedahood
+karaultra.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+karaultra.Position = UDim2.new(0.659459412, 0, 0.0413793102, 0)
+karaultra.Size = UDim2.new(0, 100, 0, 40)
+karaultra.Font = Enum.Font.GothamBold
+karaultra.Text = "karaultra"
+karaultra.TextColor3 = Color3.fromRGB(0, 0, 0)
+karaultra.TextScaled = true
+karaultra.TextSize = 14.000
+karaultra.TextWrapped = true
+karaultra.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/rdg"))()
+end)
+
+razorxp.Name = "razorxp"
+razorxp.Parent = framedahood
+razorxp.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+razorxp.Position = UDim2.new(0.362162173, 0, 0.0413793102, 0)
+razorxp.Size = UDim2.new(0, 100, 0, 40)
+razorxp.Font = Enum.Font.GothamBold
+razorxp.Text = "razorxp"
+razorxp.TextColor3 = Color3.fromRGB(0, 0, 0)
+razorxp.TextScaled = true
+razorxp.TextSize = 14.000
+razorxp.TextWrapped = true
+razorxp.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/gfrhbtgdhgjdthdjhdthj"))()
+end)
+
+framemod.Name = "framemod"
+framemod.Parent = main
+framemod.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+framemod.Position = UDim2.new(0.0399999991, 0, 0.122500002, 0)
+framemod.Size = UDim2.new(0, 370, 0, 290)
+framemod.Visible = false
+
+chariotwarepc.Name = "chariotwarepc"
+chariotwarepc.Parent = framemod
+chariotwarepc.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+chariotwarepc.Position = UDim2.new(0.040540535, 0, 0.0862068981, 0)
+chariotwarepc.Size = UDim2.new(0, 100, 0, 50)
+chariotwarepc.Font = Enum.Font.GothamBold
+chariotwarepc.Text = "chariotwarepc"
+chariotwarepc.TextColor3 = Color3.fromRGB(0, 0, 0)
+chariotwarepc.TextScaled = true
+chariotwarepc.TextSize = 14.000
+chariotwarepc.TextWrapped = true
+chariotwarepc.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Rippeed/DaHoodinary/main/chariotsware"))()
+end)
+
+softvortex.Name = "softvortex"
+softvortex.Parent = framemod
+softvortex.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+softvortex.Position = UDim2.new(0.364864856, 0, 0.0862068981, 0)
+softvortex.Size = UDim2.new(0, 100, 0, 50)
+softvortex.Font = Enum.Font.GothamBold
+softvortex.Text = "softvortex"
+softvortex.TextColor3 = Color3.fromRGB(0, 0, 0)
+softvortex.TextScaled = true
+softvortex.TextSize = 14.000
+softvortex.TextWrapped = true
+softvortex.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/MinecraftTester5151/1.5/main/1.5"),true))()
+end)
+
+print("scriptloaded")
+
+-- Scripts:
+
+local function XKGE_fake_script() -- main.LocalScript 
+	local script = Instance.new('LocalScript', main)
+
+	-- Draggble
+	-- Credits: Veky
+	
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = gui:TweenPosition(UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y), 'Out', 'Linear', 0, true); -- drag speed
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(XKGE_fake_script)()
+local function OCEFFH_fake_script() -- script.LocalScript 
+	local script = Instance.new('LocalScript', script)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.framescript.Visible = true
+		script.Parent.Parent.framedahood.Visible = false
+		script.Parent.Parent.framemod.Visible = false
+	end)
+end
+coroutine.wrap(OCEFFH_fake_script)()
+local function JNIWEP_fake_script() -- dahood.LocalScript 
+	local script = Instance.new('LocalScript', dahood)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.framescript.Visible = false
+		script.Parent.Parent.framedahood.Visible = true
+		script.Parent.Parent.framemod.Visible = false
+	end)
+end
+coroutine.wrap(JNIWEP_fake_script)()
+local function TINA_fake_script() -- dahoodmodded.LocalScript 
+	local script = Instance.new('LocalScript', dahoodmodded)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.framescript.Visible = false
+		script.Parent.Parent.framedahood.Visible = false
+		script.Parent.Parent.framemod.Visible = true
+	end)
+end
+coroutine.wrap(TINA_fake_script)()
