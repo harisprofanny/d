@@ -1,0 +1,200 @@
+--made by Qwertyuiop#5658
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local tittle = Instance.new("TextLabel")
+local close = Instance.new("TextButton")
+local prisonhub = Instance.new("TextButton")
+local dex = Instance.new("TextButton")
+local buildaboat = Instance.new("TextButton")
+local sexadmin = Instance.new("TextButton")
+local dahood = Instance.new("TextButton")
+local openmain = Instance.new("Frame")
+local open = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+main.Position = UDim2.new(0.205729187, 0, 0.301109374, 0)
+main.Size = UDim2.new(0, 350, 0, 150)
+main.Visible = false
+main.Active = true
+
+tittle.Name = "tittle"
+tittle.Parent = main
+tittle.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+tittle.Size = UDim2.new(0, 310, 0, 30)
+tittle.Font = Enum.Font.GothamBold
+tittle.Text = "Hub.com"
+tittle.TextColor3 = Color3.fromRGB(0, 0, 0)
+tittle.TextScaled = true
+tittle.TextSize = 14.000
+tittle.TextWrapped = true
+
+close.Name = "close"
+close.Parent = main
+close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+close.Position = UDim2.new(0.885714293, 0, 0, 0)
+close.Size = UDim2.new(0, 40, 0, 30)
+close.Font = Enum.Font.GothamBold
+close.Text = "X"
+close.TextColor3 = Color3.fromRGB(0, 0, 0)
+close.TextScaled = true
+close.TextSize = 14.000
+close.TextWrapped = true
+close.MouseButton1Down:Connect(function()
+	main.Visible = false
+	openmain.Visible = true
+end)
+
+prisonhub.Name = "prisonhub"
+prisonhub.Parent = main
+prisonhub.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+prisonhub.Position = UDim2.new(0.0885714293, 0, 0.330666661, 0)
+prisonhub.Size = UDim2.new(0, 50, 0, 50)
+prisonhub.Font = Enum.Font.GothamBold
+prisonhub.Text = "prisonhub"
+prisonhub.TextColor3 = Color3.fromRGB(0, 0, 0)
+prisonhub.TextScaled = true
+prisonhub.TextSize = 14.000
+prisonhub.TextWrapped = true
+prisonhub.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/3ZCqDnCR"))()
+end)
+
+dex.Name = "dex"
+dex.Parent = main
+dex.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+dex.Position = UDim2.new(0.742857158, 0, 0.330666661, 0)
+dex.Size = UDim2.new(0, 50, 0, 50)
+dex.Font = Enum.Font.GothamBold
+dex.Text = "DexV3"
+dex.TextColor3 = Color3.fromRGB(0, 0, 0)
+dex.TextScaled = true
+dex.TextSize = 14.000
+dex.TextWrapped = true
+dex.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/Dark%20Dex%20V3%20(1).txt"))()
+end)
+
+buildaboat.Name = "buildaboat"
+buildaboat.Parent = main
+buildaboat.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+buildaboat.Position = UDim2.new(0.574285686, 0, 0.330666661, 0)
+buildaboat.Size = UDim2.new(0, 50, 0, 50)
+buildaboat.Font = Enum.Font.GothamBold
+buildaboat.Text = "buildaboat"
+buildaboat.TextColor3 = Color3.fromRGB(0, 0, 0)
+buildaboat.TextScaled = true
+buildaboat.TextSize = 14.000
+buildaboat.TextWrapped = true
+buildaboat.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/dR8YVxad"))()
+end)
+
+sexadmin.Name = "sexadmin"
+sexadmin.Parent = main
+sexadmin.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+sexadmin.Position = UDim2.new(0.408571452, 0, 0.330666661, 0)
+sexadmin.Size = UDim2.new(0, 50, 0, 50)
+sexadmin.Font = Enum.Font.GothamBold
+sexadmin.Text = "sexadmin"
+sexadmin.TextColor3 = Color3.fromRGB(0, 0, 0)
+sexadmin.TextScaled = true
+sexadmin.TextSize = 14.000
+sexadmin.TextWrapped = true
+sexadmin.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/sex%20hub.txt"))()
+end)
+
+dahood.Name = "dahood"
+dahood.Parent = main
+dahood.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+dahood.Position = UDim2.new(0.248571441, 0, 0.330666661, 0)
+dahood.Size = UDim2.new(0, 50, 0, 50)
+dahood.Font = Enum.Font.GothamBold
+dahood.Text = "dahood"
+dahood.TextColor3 = Color3.fromRGB(0, 0, 0)
+dahood.TextScaled = true
+dahood.TextSize = 14.000
+dahood.TextWrapped = true
+dahood.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/Da%20hood.txt"))()
+end)
+
+openmain.Name = "openmain"
+openmain.Parent = ScreenGui
+openmain.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+openmain.Position = UDim2.new(0.779947937, 0, 0.26941362, 0)
+openmain.Size = UDim2.new(0, 80, 0, 55)
+openmain.Active = true
+
+open.Name = "open"
+open.Parent = openmain
+open.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+open.Position = UDim2.new(0.1875, 0, 0.272727281, 0)
+open.Size = UDim2.new(0, 50, 0, 25)
+open.Font = Enum.Font.GothamBold
+open.Text = "open"
+open.TextColor3 = Color3.fromRGB(0, 0, 0)
+open.TextScaled = true
+open.TextSize = 14.000
+open.TextWrapped = true
+open.MouseButton1Down:Connect(function()
+	openmain.Visible = false
+	main.Visible = true
+end)
+
+-- Scripts:
+
+local function VRPGD_fake_script() -- main.LocalScript 
+	local script = Instance.new('LocalScript', main)
+
+	-- Draggble
+	-- Credits: Veky
+	
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = gui:TweenPosition(UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y), 'Out', 'Linear', 0, true); -- drag speed
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(VRPGD_fake_script)()
