@@ -1,0 +1,116 @@
+local sound = sound
+if game.CoreGui:FindFirstChild("sc") then
+    game.CoreGui:FindFirstChild("sc"):Destroy()
+    end
+local sc = Instance.new("ScreenGui")
+local frame = Instance.new("Frame")
+local box = Instance.new("TextBox")
+local btn = Instance.new("TextButton")
+local btns = Instance.new("TextButton")
+
+sc.Name = "sc"
+sc.Parent = game.CoreGui
+
+frame.Name = "frame"
+frame.Parent = sc
+frame.Size = UDim2.new(0,350,0,140)
+frame.Position = UDim2.new(0,300,0,170)
+frame.BackgroundColor3 = Color3.new(0,0,0)
+frame.Active = true
+
+box.Name = "box"
+box.Parent = frame
+box.Size = UDim2.new(0,300,0,60)
+box.Position = UDim2.new(0,25,0,15)
+box.BackgroundColor3 = Color3.new(500,500,500)
+box.TextSize = 30
+box.Text = ""
+box.TextWrapped = true
+box.PlaceholderText = "put id song here"
+box.PlaceholderColor3 = Color3.new(0,0,0)
+box.Font = Enum.Font.GothamBold
+box.TextScaled = true
+
+btn.Name = "play"
+btn.Parent = frame
+btn.Size = UDim2.new(0,130,0,40)
+btn.Position = UDim2.new(0,25,0,85)
+btn.BackgroundColor3 = Color3.new(255,0,0)
+btn.Text = "Play I>"
+btn.TextSize = 25
+btn.Font = Enum.Font.GothamBold
+btn.MouseButton1Click:connect(function()
+    local ClientSound = Instance.new("Sound")
+ClientSound.SoundId = "rbxassetid://"..box.Text
+ClientSound.Volume = 4
+ClientSound.Parent = workspace
+ClientSound.PlaybackSpeed = 1
+ClientSound:Play()
+ClientSound.Looped = true
+wait()
+ClientSound.Name = "Music_Player"
+end)
+
+btns.Name = "stop"
+btns.Parent = frame
+btns.Size = UDim2.new(0,130,0,40)
+btns.Position = UDim2.new(0,195,0,85)
+btns.BackgroundColor3 = Color3.new(255,0,0)
+btns.Text = "Stop II"
+btns.TextSize = 25
+btns.Font = Enum.Font.GothamBold
+btns.MouseButton1Click:connect(function()
+if game:GetService("Workspace"):FindFirstChild("Music_Player") then
+game:GetService("Workspace"):FindFirstChild("Music_Player"):Destroy()
+end
+end)
+
+
+---draggable
+local function FQIK_fake_script() -- frame.LocalScript 
+	local script = Instance.new('LocalScript', frame)
+
+	-- Draggble
+	-- Credits: Veky
+	
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = gui:TweenPosition(UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y), 'Out', 'Linear', 0, true); -- drag speed
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(FQIK_fake_script)()
